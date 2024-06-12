@@ -1,0 +1,277 @@
+.bg-blue {
+  background-color: #6190E8;
+  height: 100%;
+}
+
+.banner-swiper-view {
+  background-color: #FFF;
+}
+
+.banner-swiper {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.banner-swiper-image {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-view {
+  margin: 15px 20px;
+}
+
+.home-view-tips {
+  position: relative;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #6a6a77;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 50px
+}
+
+.home-view-tips::before {
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 40px;
+  background-color: #6190e8;
+  margin-right: 8px;
+  box-shadow: 0 0.14933rem 0.256rem 0 rgb(97 144 232 / 20%);
+  border-radius: 1px;
+}
+
+.card-item-container {
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-item-img {
+  width: 100%;
+  height: 230px;
+}
+
+.card-item-img-top {
+  position: absolute;
+  width: 80px;
+  top: 0;
+  background-color: #6190E8;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border-bottom-right-radius: 6px;
+}
+
+.card-item-img-top-text {
+
+}
+
+.card-title {
+  margin: 12px 12px;
+  display: block;
+  color: rgba(0,0,0,.8);
+  line-height: 1.4;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card-simple-desc {
+  color: rgba(0,0,0,.4);
+  font-size: 28px;
+  margin: 0px 140px 12px 12px;
+}
+
+.card-desc {
+  display: block;
+  padding-left: 10px;
+  padding-bottom: 6px;
+  font-size: 22px;
+}
+
+.card-item-bottom-tag {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.card-item-bottom-fixed {
+  justify-content: space-between;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #FAFBFC;
+  border-radius: 0 0 6px 6px;
+}
+
+.card-item-bottom-fixed a {
+  display: flex;
+  width: 100px;
+  height: 80px;
+  border-radius: 0 0 6px 0;
+  color: #fff;
+  background-color: #78A4FA;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .75px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-item-favorites {
+  display: flex;
+  font-size: 22px;
+  color: rgba(0, 0, 0, .3);
+  font-weight: 600;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card-item-favorites-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+  border-right: 1px solid #ebebeb;
+  height: 100%;
+}
+
+.card-item-favorites-text {
+  color: #AAAAAA;
+  font-size: 26px;
+  margin-left: 6px;
+}
+
+.card-simple-desc {
+  font-size: 32px;
+  color: gray;
+  margin-top: 6px;
+}
+
+.charge-free {
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: .75px;
+}
+
+.charge-no-free {
+  background-color: #ee4f12 !important;
+}
+
+.messages, .no-border-message {
+  position: relative;
+}
+
+.messages:after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #d6e4ef;
+  transform: scaleY(0.5);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.message-title {
+  font-size: 32px;
+}
+
+.message-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-title-time {
+  color: #CCC;
+  font-size: 28px;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.message-detail-title-time {
+  color: #CCC;
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.message-content {
+  color: #666;
+  font-size: 32px;
+  white-space: pre-wrap;
+}
+
+.overflow-hidden-text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.home-item-left .label {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  color: #3F51B5 !important;
+  background: #dae3fb7a !important;
+  border: none !important;
+}
+
+.course-detail-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.exam-item {
+  margin: 26px 22px 26px 22px;
+  padding-bottom: 30px;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.showPolicyTitle{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.showContent{
+  line-height: 2;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+.couresebg{
+  height: 100%;
+  background-color: #EEEEEE;
+  padding: 0.4rem 0;
+}
